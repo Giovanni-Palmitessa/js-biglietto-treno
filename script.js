@@ -21,6 +21,10 @@ console.log(`Somma km + età moltiplicato per 0.21€:` + price)
 const discount20 = price * 0.2;
 const discount40 = price * 0.4;
 
+// if (isNaN(kmToTravel) || isNaN(age)) {
+//     document.getElementById (`finalPrice`).innerHTML = `Non hai inserito un valore corretto, ricarica la pagina!`
+// } else
+
 if (age < 18) {
     price = price - discount20;
     console.log(`Prezzo con sconto 20%` + price)
@@ -29,5 +33,5 @@ if (age < 18) {
     console.log(`Prezzo con sconto 40%` + price)
 }
 
-document.getElementById (`finalPrice`).innerHTML = `Il costo del biglietto è: ${price.toFixed(2)}`
+document.getElementById (`finalPrice`).innerHTML = `Il costo del biglietto è: ${price.toFixed(2)} €`
     
