@@ -13,7 +13,20 @@ const kmToTravel = parseInt(prompt('Quanti km vuoi percorrere?'));
 const age = parseInt(prompt(`Quanti anni hai?`));
 
 const sum = kmToTravel + age 
-console.log(sum)
+console.log(`Somma km + età:` + sum)
 
-const price = sum * 0.21 
-console.log(price)
+let price = sum * 0.21;
+console.log(`Somma km + età moltiplicato per 0.21€:` + price)
+
+const discount20 = price * 0.2;
+const discount40 = price * 0.4;
+
+if (age < 18) {
+    price = price - discount20;
+    console.log(`Prezzo con sconto 20%` + price)
+} else if (age > 65) {
+    price = price - discount40;
+    console.log(`Prezzo con sconto 40%` + price)
+}
+// console.log(price)
+    
