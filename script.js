@@ -29,5 +29,5 @@ if (age < 18) {
     console.log(`Prezzo con sconto 40%` + price)
 }
 
-document.getElementById (`finalPrice`).innerHTML = `Il costo del biglietto è: ${price}`
+document.getElementById (`finalPrice`).innerHTML = `Il costo del biglietto è: ${price.toFixed(2)}`
     
