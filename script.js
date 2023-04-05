@@ -23,7 +23,7 @@ const discount40 = price * 0.4;
 
 // if (isNaN(kmToTravel) || isNaN(age)) {
 //     document.getElementById (`finalPrice`).innerHTML = `Non hai inserito un valore corretto, ricarica la pagina!`
-// } else
+// } else 
 
 if (age < 18) {
     price = price - discount20;
