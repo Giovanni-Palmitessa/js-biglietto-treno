@@ -14,3 +14,6 @@ const age = parseInt(prompt(`Quanti anni hai?`));
 
 const sum = kmToTravel + age 
 console.log(sum)
+
+const price = sum * 0.21 
+console.log(price)
