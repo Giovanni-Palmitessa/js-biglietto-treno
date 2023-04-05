@@ -10,3 +10,6 @@ risultato stampato in pagina con solo 2 decimali
 */
 
 const kmToTravel = parseInt(prompt('Quanti km vuoi percorrere?'));
+const age = parseInt(prompt(`Quanti anni hai?`));
+
+const sum = kmToTravel + age 
